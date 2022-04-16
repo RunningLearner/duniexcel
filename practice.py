@@ -35,12 +35,10 @@ login_pw = driver.find_element(By.NAME, "password")
 
 #search 변수에 저장된 곳에 값을 전송
 login_id.send_keys("tjdgk3575")
-time.sleep(1)
 login_pw.send_keys("clscjr20")
-time.sleep(1)
 login_id.send_keys(Keys.ENTER)
 driver.implicitly_wait(10)
 
 #식단페이지로 이동
-driver.get("https://www.kdclub.com/kdabrd/main.php?board=jj004")
+driver.get("https://www.kdclub.com/kdabrd/main.php?board=data1")
 driver.implicitly_wait(10)
